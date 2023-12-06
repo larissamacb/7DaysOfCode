@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/*Padronizações*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Barra de Navegação*/
+
+.barra {
+    width: 1440px;
+    height: 80px;
+    
+}
+
+.barra-de-navegacao {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    margin: 18px 32px;
+    justify-content: space-between;
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 32px;
+}
+
+.logo {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+nav > .links > li {
+    gap: 32px;
+    color: #667085;
+}
+
+.link-barra {
+    color: #667085;
+}
+
+.espaço {
+    width: 142px;
+    height: 32px;
+}
+
+.cadastrar {
+    color: white;
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    padding: 10px 18px;
+}
