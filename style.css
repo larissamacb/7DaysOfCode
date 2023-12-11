@@ -180,6 +180,10 @@ h1 {
 
 /*Vagas*/
 
+.vagas {
+    margin-bottom: 96px;
+}
+
 .vagas-por-categoria {
     display: flex;
     width: 1280px;
@@ -213,4 +217,59 @@ h1 {
     gap: 24px;
     color: #667085;
     font-size: 16px;
+}
+
+/*Depoimentos*/
+
+.depoimentos {
+    margin-bottom: 96px;
+}
+
+.background {
+    background: rgba(195, 25, 25, 0.03);
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 1216px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+
+.texto-vermelho {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.depoimentos > .background > h2 {
+    color: #101828;
+    font-size: 36px;
+}
+
+.autoria-do-comentario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 56px;
+    margin-bottom: 16px;
+}
+
+.nome {
+    color: #101828;
+    font-size: 16px;
+}
+
+.funcao {
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
 }
